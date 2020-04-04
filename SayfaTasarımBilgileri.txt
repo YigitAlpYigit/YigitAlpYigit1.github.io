@@ -1,0 +1,31 @@
+	Web Teknolojileri projemde bir web sitesi tasarımı yapıyorum. Web sitesi 6 farklı sayfa içerecek. Bu sayfalar; anasayfa, özgeçmiş, şehrim, takımım, login ve iletişimdir.
+
+Ana Sayfa Hakkında ki Açıklama : 
+	Ana sayfamın en üst kısmında diğer sayfalara geçiş yapabileceğimiz bir "Navbar"  bulunacak. 
+	Hemen  alt kısmına açılışta güzel görünmesi için bir fotoğraf yerleştirilecek. 
+	Aşağısında ise kullanıcıyı selamladığım bir yazı ve fotoğraf olacak. 
+	Onun aşağısında eğitim hayatımdan , yaptığım aktiviteler bahsediyor ve iletişim bilgilerimi vereceğim. 
+	Biraz aşağısında fotoğraflarımı göstereceğim.
+
+Özgeçmiş Hakkındaki Açıklama:
+	Özgeçmiş sayfamın en üst kısmında diğer sayfalara geçiş yapabileceğimiz "Navbar" bulunacak.
+	"table" ve "div"lerle bir özğeçmiş oluşturulacak.
+
+Şehrim Hakkında ki Açıklamam : 
+	Şehrim sayfamın en üst kısmında diğer sayfalara geçiş yapabileceğimiz "Navbar"  bulunacak. 
+	Alt kısmında "Slider" oluşturdum ve 4 tane resim yerleştirilecek. 
+	Bu resimlere basınca her biri kendine ait olan yazıya kayarak gidecek. 
+	Bu kaymayı sağlamak için javaScript kodu kullanacağım. 
+	Slider'ın altına şehrimle ilgili bilgiler vereceğim.
+
+Takımımız Hakkında ki Açıklamam : 
+	Takımımız sayfasının en üst kısmına diğer sayfalara geçiş yapabileceğiz "Navbar"  bulunacak. 
+	Hemen altına açılışta güzel gözükmesi için Beşiktaş J.K.'nün logosunun ve adının bulunduğu bir resim yerleştireceğim. 
+	Onun altında Beşiktaş Jimnastik  Kulübü'nün başkanı hakkında bilgi ve video bulunacak.
+	Onun altında ise Beşiktaş'ın stadı olan Vodafone Park hakkında yazı yazılı ve video olacak. 
+	En alt kısımda ise Beşiktaş'ın tarihinde ki 10 ilginç bilgiyi paylaşacağım.
+
+İletişim Hakkında ki Açıklamam : 
+	İletişim sayfasının en üst kısmında diğer sayfalara geçiş yapabileceğimiz bir "Navbar" bulunacak.  
+	Sayfanın geri kalanında ise kullanıcı hakkında ki bilgileri istiyoruz ve kullanıcı bu bilgileri yazdıktan sonra gönder butonuna bastığında bu bilgiler "Mesaj" adında bir sayfada gözükecek.
+
