@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SAKARYA ÜNİVERSİTESİ PROJE</title>
+<style>
+.body
+{
+	background-color:white;
+
+}
+
+img 
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.GölgeliKalıp
+{
+    background-color: white;
+    padding: 30px 30px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+}
+</style>
+<script src=“https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js”>
+</script>
+
+<script><!--Basıldığında yavaşça aşağıya kayıyor-->
+window.smoothScroll = function (target) {
+    var scrollContainer = target;
+    do {
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do {
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function (c, a, b, i) {
+        i++;
+        if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () {
+            scroll(c, a, b, i);
+        }, 20);
+    }
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sakarya Üniversi</title>
+	<link rel="shortcut icon" href="C:\Users\PC\Desktop\logo_32iS_icon.bmp" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+</head>
+<body>
+
+<body class="body">
+<!--En Tepedeki Butonların Başlangıcı-->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="text-align:center ; background-color:#F7F2F0;" >
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" onclick="window.location='http://cs.sakarya.edu.tr/'" style="cursor:pointer;"><b>YİĞİT ALP YİĞİT</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="file:///C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\HTML\ANASAYFA.html"><span>ANASAYFA</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="file:///C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\HTML\CVK.html">ÖZGEÇMİŞ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="file:///C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\HTML\ŞEHRİM.html">ŞEHRİM</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="file:///C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\HTML\TAKIMIM.html">TAKIMIMIZ</a>
+		</li>
+		<li class="nav-item">
+        <a class="nav-link" href="file:///C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\HTML\iletisim.html">İLETİŞİM</a>
+		</li>
+    </ul>
+  </div>
+</nav>
+
+<!--En Tepedeki Butonların Başlangıcı-->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="text-align:center ; background-color:#F7F2F0;" >
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" onclick="window.location='http://cs.sakarya.edu.tr/'" style="cursor:pointer;"><b>YİĞİT ALP YİĞİT</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://yigitalpyigit1.github.io/anasayfa">ANASAYFA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://yigitalpyigit1.github.io/ozgecmis">ÖZGEÇMİŞ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://yigitalpyigit1.github.io/sehrim">ŞEHRİM</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="https://yigitalpyigit1.github.io/takım">TAKIMIMIZ</a>
+		</li>
+		<li class="nav-item">
+        <a class="nav-link" href="https://yigitalpyigit1.github.io/login">LOGİN</a>
+		</li>
+	    <li class="nav-item">
+        <a class="nav-link" href="https://yigitalpyigit1.github.io/iletisim">İLETİŞİM</a>
+		</li>
+    </ul>
+  </div>
+</nav>
+
+<!--En Tepedeki Butonların Ufalmasının Başlangıcı-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+ <div class="container" >
+	<div style="background-color:#F7F7F7; margin-top:50px;">
+		<div class=" col-lg-4 ">
+			<div class="GölgeliKalıp text-center">
+				<p ><a style="color:gold">İstanbul'da Gezilmesi Gereken 10 Yer</a></p>
+				<ul>TOPKAPI SARAYI</ul> 	<ul>EMİRGAN PARKI</ul>
+				<ul>KIZ KULESİ</ul>			<ul>EYÜP SULTAN CAMİİ</ul>
+				<ul>GALATA KULESİ</ul>		<ul>MİNİATÜRK</ul>
+				<ul>YEREBATAN SARNICI</ul>	<ul>SULTANAHMET MEYDANI</ul>
+				<ul>SÜLEYMANİYE CAMİİ</ul>	<ul>Pierre Loti Tepesi</ul>
+			</div>
+		</div>
+		<div class=" col-lg-4 ">
+			<div class="GölgeliKalıp text-center">
+				<p><a style="color:gold">İstanbul'un Tarih Bilgileri</a> </p>
+				<p>İstanbul, yerleşim tarihi 300 bin, kentsel tarihi 3 bin yıl önceye kadar uzanan bir şehirdir. 1204-1261 arasındaki Haçlı istilası haricinde 330`dan 1923`e kadar olan dönemde; Roma İmparatorluğu, Bizans İmparatorluğu ve Osmanlı İmparatorluğu olmak üzere üç değişik imparatorluğa başkentlik yaparak, 1.553 sene boyunca batıda Tuna Nehri`nden doğuda Pers İmparatorluğu`na kadar olan bölgenin tartışmasız tek hakimi olmuştur. </p>
+			</div>
+		</div>
+		<div class=" col-lg-4 ">
+			<div class="GölgeliKalıp text-center">
+				<p><a style="color:gold">İstanbul'da Nüfus Bilgiler</a></p>
+				<p>İstanbul nüfusu bir önceki yıla göre 38.493 artmıştır. İstanbul nüfusu 2018 yılına göre 15.067.724'dir. Bu nüfus, 7.542.231 erkek ve 7.525.493 kadından oluşmaktadır. Yüzde olarak ise: %50,06 erkek, %49,94 kadındır.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+    <!-- Galata Bilgileri Başlangıç -->
+	<div class="col-md-6 col-lg-3" id="Resim0" style="margin-top:50px;">
+    <div class="GölgeliKalıp  text-center">
+		<a target=”_blank” href="http://www.wikizero.biz/index.php?q=aHR0cHM6Ly90ci53aWtpcGVkaWEub3JnL3dpa2kvR2FsYXRhX0t1bGVzaQ"><img src="C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\Resimler\Şehrim\gkiçi.jpg"></img></a><br>
+		<p style="margin-top:30px;">Galata Kulesi, 528 yılında Bizans İmparatoru Anastasius tarafından fener kulesi olarak inşa edilmiştir. Ancak bu kule 1202-1204 yılları arasındaki Dördüncü Haçlı Seferleri sırasında İstanbul’u ele geçiren ve yağmalayan Latinler tarafından büyük oranda zarar görmüş ve yıkılmıştır.
+Günümüzde hala ayakta olan kule Cenevizliler tarafından 1348 yılında Galata Surları’na ek olarak inşa edilmiştir.Kulenin bir diğer adı da İsa Kulesi’dir. Evliya Çelebi’nin Seyahatnamesi ‘ne göre Hezarfen Ahmet Çelebi Galata Kulesi’nin üzerinden tarihteki ilk kıtalar arası uçuşu gerçekleştirmiştir. Toplam 6 kilometre mesafe kat eden Hezarfen Ahmet Çelebi, uçuşunun ardından Üsküdar’a inmiştir.
+1717’den başlayarak kule Osmanlı tarafından yangın gözetleme kulesi olarak kullanılmıştır. 1875 yılında bir fırtına sonrası çatısı yıkılmış, 1965 yılında restore edilesiye kadar kullanılmamıştır. Bugün altında kafeler olan kule, İstanbul’un siluetinin de önemli bir parçasıdır.</p>
+	</div>
+</div>
+<br>
+	<!--Ortaköy Camii Başlangıç -->
+	<div class="col-md-6 col-lg-3" id="Resim1" style="margin-top:50px; ">
+        <div class="GölgeliKalıp text-center">
+			<a target=”_blank” href="http://www.wikizero.biz/index.php?q=aHR0cHM6Ly90ci53aWtpcGVkaWEub3JnL3dpa2kvQsO8ecO8a19NZWNpZGl5ZV9DYW1paQ"><img src="C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\Resimler\Şehrim\bmciçi.jpg"></img></a><br>
+			<p style="margin-top:30px;">
+			Büyük Mecidiye Camii ya da halk arasında bilinen adı ile Ortaköy Camii, İstanbul Boğaziçi’nde Beşiktaş ilçesinin, Ortaköy semtinde sahilde bulunan Neo Barok tarzında bir camiidir.
+Cami, Sultan Abdülmecid tarafından Mimar Nigoğos Balyan’a 1853 yılında yaptırılmıştır. Oldukça zarif bir yapı olan cami Barok üslubundadır. Boğaziçi’nde eşsiz bir konuma yerleştirilmiştir. Bütün selatin camilerinde olduğu gibi harim ve hünkar bölümü olmak üzere iki kısımdan oluşur. Geniş ve yüksek pencereler Boğaz’ın değişken ışıklarını caminin içine taşıyacak biçimde düzenlenmiştir.
+Merdivenle çıkılan yapının tek şerefeli iki minaresi vardır. Duvarları beyaz kesme taştan yapılmıştır. Tek kubbenin duvarları pembe mozaiktendir. Mihrap mozaik ve mermerden, mimber ise somaki kaplı mermerden yapılmıştır ve ince bir işçiliğin ürünüdür.
+Vakıflar Genel Müdürlüğü tarafından 2011 ile 2014 arasında yaklaşık 3 yıl sürdü.
+			</p>
+		</div>
+	</div>
+<br>
+    <!-- Kız Kulesi Başlangıç -->
+    <div class="col-md-6 col-lg-3" id="Resim2" style="margin-top:50px;">
+        <div class="GölgeliKalıp text-center">
+			<a target=”_blank” href="http://www.wikizero.biz/index.php?q=aHR0cHM6Ly90ci53aWtpcGVkaWEub3JnL3dpa2kvS8Sxel9LdWxlc2k" ><img src="C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\Resimler\Şehrim\kkiçi.jpg"></img></a><br>
+            <p style="margin-top:30px;">KIZ KULESİ, İstanbul Boğazı’nın girişinde, Salacak İskelesi yakınlarında kıyıya 180 metre uzaklıkta, kayalıklar üzerine kurulmuş, günümüzde deniz feneri olarak kullanılan tarihsel değeri olan kule.
+Bizans İmparatoru Manuel Komnenos (1143-1180) tarafından yaptırıldı. Boğazı düşmana karşı kapatmak için kullanılan zincirin bağlandığı yer olduğu sanılır. 1453’te İstanbul fethedildiğinde kule yıkık bir durumdaydı. Yerine gemilere gece yol göstermek için ahşap bir kule yaptırıldı. 1719’da bu kule de bir yangın sonucu yok olunca, günümüzdeki kuleyi Sadrazam Nevşehirli Damat İbrahim Paşa bu kez taştan yaptırdı. Üzerindeki yarım kubbe de o zaman konuldu.
+1839’da bir süre karantina yeri olarak kullanıldı. 1857’de yönetimi Fenerler İdaresi’ne bırakıldı. 1944’te bir onarım geçirdi. Günümüzde Limanlar İdaresi tarafından yönetilir. 18 metre yüksekliğindeki kulenin yanında bulunan fener, 3 saniyede bir, 4 km. uzaklıktan görülebilen kırmızı bir ışık verir.</p>
+        </div>
+    </div>
+<br>
+    <!-- Gülhane Bilgileri Başlangıç -->
+    <div class="col-md-6 col-lg-3" id="Resim3" style="margin-top:50px;">
+        <div class="GölgeliKalıp  text-center">
+			<a target=”_blank” href="http://www.wikizero.biz/index.php?q=aHR0cHM6Ly90ci53aWtpcGVkaWEub3JnL3dpa2kvR8O8bGhhbmVfUGFya8Sx"><img src="C:\Users\ALP CAN\Desktop\Web Teknolojileri Proje\Resimler\Şehrim\gpiçi.jpg"></img></a><br>
+			<p style="margin-top:30px;">Gülhane Parkı eskiden Topkapı Sarayı’nın “Has Bahçe” lerinden biriydi. Ulu ağaçlar, güller, laleler, bin bir çiçek bu bahçeyi süslerdi. 
+1839’da Mustafa Reşit Paşa’ nın Tanzimat Fermanı’nı okuduğu Gülhane daha sonraları ihmale uğramış, Padişahların Dolmabahçe Sarayı’na taşınması, daha sonra Avrupa demiryolunun Sirkeciye Sarayburnu’ ndan geçerek gelmesi üzerine parkın ağaçları, köşkleri sökülüp yıkılmış, burası garip bir eğlence yerine dönerek “Bitli Kağıthane” adını almıştı. 
+Haliç’teki Kağıthane (eski devirlerde Sadabad’ı), şehrin kalabalık bölgelerinden oldukça uzak bulunduğu için gene gözde bir gezme yeri olarak kaldığı halde, İstanbul’un kalabalık semtlerine yakın olan Gülhane Parkı her çeşit halkı çekiyordu. O zamanlar tatil günü olan Cuma günleri ahali yemeklerini alarak çoluk çocuk eğlenmeye, dinlenmeye geliyordu. Gülhane Parkı bugün İstanbul yakasında halkın yararına sunulmuş bulunmaktadır.</p>
+		</div>
+    </div>
+</body>
+</html>
