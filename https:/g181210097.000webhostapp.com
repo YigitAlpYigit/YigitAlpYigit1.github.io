@@ -1,0 +1,3 @@
+PHP'NİN ÇALIŞMASINI GÖRMEK İÇİN AŞAĞIDAKİ LİNKİ KULLANABİLİRSİNİZ
+
+https://g181210097.000webhostapp.com
